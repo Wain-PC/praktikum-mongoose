@@ -1,0 +1,17 @@
+### Получить конкретного пользователя
+GET http://localhost:3000/users_mongoose/6110402a51e5393570681cc1
+Accept: application/json
+
+### Получить всех пользователей
+GET http://localhost:3000/users_mongoose/
+Accept: application/json
+
+### Создать пользователя
+POST http://localhost:3000/users_mongoose/
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "user 2",
+  "about": "about 2"
+}
